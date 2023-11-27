@@ -11,7 +11,7 @@ import (
 )
 
 func main() {
-	client, err := echo.NewClient("hello", client.WithHostPorts("0.0.0.0:9090"))
+	client, err := echo.NewClient("echo", client.WithHostPorts("127.0.0.1:8888"))
 	if err != nil {
 		log.Fatal(err)
 	}
