@@ -1,0 +1,1 @@
+kitex -module github.com/tuoaitang/kitex-demo/simple-client ../echo.thrift
